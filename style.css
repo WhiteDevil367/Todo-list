@@ -1,0 +1,81 @@
+body{
+    margin: 0px;;
+    background-color: greenyellow;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    align-items: center;
+}
+.todo-header{
+    background-color: transparent;
+    height: 3rem;
+}
+.todo-heading{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(227, 131, 90);
+    text-align: center;
+    padding: auto;
+    align-items: center;
+}
+.todo-main{
+    background-color: transparent;
+    height: 400px;
+    text-align: center;
+}
+.todo-input-text{
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(237, 131, 90);
+    font-weight: bold;
+    margin: 0px;
+}
+.todo-input{
+    height: 1.8rem;
+    width: 14rem;
+    border-radius: 0.3rem;
+    border: none;
+    margin: 2rem;
+    
+    
+}
+.todo-add-button{
+    font-size: 1.5rem;
+    background-color: rgb(217, 131, 90);
+    padding: 0.3rem 1rem;
+    border: none;
+    border-radius: 0.3rem;
+    color: whitesmoke;
+}
+.todo-list{
+    height: 2.5rem;
+    width: 28rem;
+    background-color: rgba(86, 114, 93, 0.326);
+    margin:  1rem;
+    text-align: center;
+    align-items: center;
+    border-radius: 0.3rem;
+    display: flex;
+    justify-content:flex-start;
+}
+.checkbox{
+    height: 1.2rem;
+    width: 1.2rem;
+    margin: 1rem;
+}
+.label{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+.check{
+    text-decoration: line-through;
+}
+.delete-icon{
+    color: rgb(240, 235, 243);
+    font-size: 1.4rem;
+    margin-left: 2rem;
+    text-align: center;
+}
